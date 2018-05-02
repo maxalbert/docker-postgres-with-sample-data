@@ -11,7 +11,7 @@ This is a minimal example of how to bundle sample data with a dockerized Postgre
 ```
 $ make fresh
 ```
-This removes any existing container and data volume from previous runs, (re-)builds the docker image and spins up a new container called `dbtest` which runs PosgreSQL and has a small sample table ingested.
+This removes any existing container and data volume from previous runs, (re-)builds the docker image and spins up a new container called `dbtest` which runs PosgreSQL on port 9000 and has a small sample table ingested.
 
 To verify that it worked you can run `make connect` (this requires `psql`), which will drop you into a `psql` console and then you can list the contents of the sample table:
 ```
