@@ -1,4 +1,4 @@
-PROJECT_NAME = dbtest-demo
+PROJECT_NAME = dbtestdemo
 DBTEST_PORT = 9000
 DATA_VOLUME_NAME = $(PROJECT_NAME)_data-volume-dbtest
 
